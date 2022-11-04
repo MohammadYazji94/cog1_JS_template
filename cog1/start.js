@@ -21,7 +21,7 @@ require(["dojo", "dojo/parser", "dojo/domReady!"], function(dojo) {
 		// Base URL replaces the path to dojo as default,
 		// When dojo come from the local file-system,
 		// we need the path to dojo to load siblings like dijit.
-		// Thus the path must then be reset in packages.
+		// Thus, the path must then be reset in packages.
 		// baseUrl: "cog1/",
 		// Set absolute path to dojo packages if not linked via http.
 		// packages:[
